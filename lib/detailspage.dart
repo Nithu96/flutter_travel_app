@@ -141,8 +141,8 @@ class _DetailsPageState extends State<DetailsPage> {
                                         ],
                                       ),
                                       Container(
-                                        height: 40.0,
-                                        width: 40.0,
+                                        height: 30.0,
+                                        width: 30.0,
                                         decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(7.0),
                                             color: Colors.white),
@@ -185,6 +185,22 @@ class _DetailsPageState extends State<DetailsPage> {
                                   '\$50 - \$150'),
                               _buildListItem('assets/canada.jpg', 'Miay gate',
                                   '\$300 - \$350')
+                            ],
+                          )
+                      ),
+                      SizedBox(height: 15.0),
+                      Container(
+                          height: 200.0,
+                          width: MediaQuery.of(context).size.width,
+                          child: ListView(
+                            scrollDirection: Axis.horizontal,
+                            children: <Widget>[
+                              _buildListItem('assets/canada.jpg', 'Miay gate',
+                                  '\$100 - \$300'),
+                              _buildListItem('assets/japan.jpeg', 'Takashi castle',
+                                  '\$60 - \$160'),
+                              _buildListItem('assets/kyoto.jpeg', 'Heaven\'s gate',
+                                  '\$400 - \$550')
                             ],
                           )
                       )
