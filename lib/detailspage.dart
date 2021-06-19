@@ -34,7 +34,7 @@ class _DetailsPageState extends State<DetailsPage> {
             ),
           ),
           Padding(
-              padding: EdgeInsets.fromLTRB(15.0, 35.0, 15.0, 15.0),
+              padding: EdgeInsets.fromLTRB(15.0, 55.0, 15.0, 15.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
@@ -98,7 +98,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       Stack(
                         children: <Widget>[
                           Padding(
-                              padding: EdgeInsets.only(right: 10.0),
+                              padding: EdgeInsets.only(right: 20.0),
                               child: Container(
                                 height: 200.0,
                                 width: 325.0,
