@@ -98,7 +98,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       Stack(
                         children: <Widget>[
                           Padding(
-                              padding: EdgeInsets.only(right: 20.0),
+                              padding: EdgeInsets.only(right: 27.0),
                               child: Container(
                                 height: 200.0,
                                 width: 325.0,
